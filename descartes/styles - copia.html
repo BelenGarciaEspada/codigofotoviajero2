@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Footer Example</title>
+
+    <style>
+      #footer {
+        color: #444444;
+        font-size: 0.875rem;
+        background: var(--kc-secondary-color);
+      }
+
+      #footer .footer-newsletter {
+        font-size: 0.9375rem;
+      }
+
+      #footer .footer-newsletter h4 {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #444444;
+        position: relative;
+        padding-bottom: 0.75rem;
+      }
+
+      #footer .footer-newsletter form {
+        margin-top: 1.875rem;
+        background: #fff;
+        padding: 0.375rem 0.625rem;
+        position: relative;
+        border-radius: 3.125rem;
+        text-align: left;
+        border: 0.0625rem solid #bfdcf7;
+      }
+
+      #footer .footer-newsletter form input[type="email"] {
+        border: 0;
+        padding: 0.25rem 0.5rem;
+        width: calc(100% - 6.25rem);
+      }
+
+      #footer .footer-newsletter form input[type="submit"] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        border: 0;
+        background: none;
+        font-size: 1rem;
+        padding: 0 1.25rem;
+        background: #1977cc;
+        color: #fff;
+        transition: 0.3s;
+        border-radius: 3.125rem;
+      }
+
+      #footer .footer-newsletter form input[type="submit"]:hover {
+        background: #1c84e3;
+      }
+
+      #footer .credits {
+        padding-top: 0.3125rem;
+        font-size: 0.8125rem;
+        color: #444444;
+      }
+
+      #footer .tab {
+        margin-left: 2rem;
+      }
+
+      .prices h2.card-title {
+        background-image: url(../imgs/fondo.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 250%;
+      }
+    </style>
+  </head>
+
+  /*-------------------------------------------------------------- # Footer
+  --------------------------------------------------------------*/
+
+  <footer id="footer" class="footer pt-5 pb-3">
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+            <h3 class="fs-4 fw-bold mb-4">Address</h3>
+            <ul class="mb-4 list-unstyled">
+              <li class="d-flex align-items-center">
+                <i class="icofont-2x icofont-google-map me-2"></i>9660 West
+                Street
+              </li>
+              <li class="tab">London SW39 5FE</li>
+              <li class="tab">United Kingdom</li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+            <h3 class="fs-4 fw-bold mb-4">Contact</h3>
+            <ul class="mb-4 list-unstyled">
+              <li class="d-flex align-items-center">
+                <i class="icofont-2x icofont-phone-circle me-2"></i>Call:
+                555-55-55-55
+              </li>
+              <li class="tab">24 / 7 Support</li>
+              <li class="d-flex align-items-center">
+                <i class="icofont-2x icofont-mail me-2"></i>info@example.com
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+            <h3 class="fs-4 fw-bold mb-4">Services</h3>
+            <ul class="list-unstyled">
+              <li>
+                <i class="icofont-verification-check me-2"></i
+                ><a href="javascript:void(0)">Evening </a>
+              </li>
+              <li>
+                <i class="icofont-verification-check me-2"></i
+                ><a href="javascript:void(0)">Daytime </a>
+              </li>
+              <li>
+                <i class="icofont-verification-check me-2"></i
+                ><a href="javascript:void(0)">Home help</a>
+              </li>
+              <li>
+                <i class="icofont-verification-check me-2"></i
+                ><a href="javascript:void(0)">After School</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+            <h3 class="fs-4 fw-bold mb-4 text-start">Connect with us</h3>
+            <div class="social-links">
+              <a href="#" class="bluesky text-decoration-none"
+                ><i class="icofont-butterfly"></i
+              ></a>
+              <a href="#" class="facebook text-decoration-none"
+                ><i class="icofont-facebook"></i
+              ></a>
+              <a href="#" class="whatsapp text-decoration-none"
+                ><i class="icofont-whatsapp"></i
+              ></a>
+              <a href="#" class="tiktok text-decoration-none"
+                ><i class="icofont-tiktok"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-newsletter col-4 mx-auto">
+          <form action="" method="post">
+            <input type="email" name="email" placeholder="Enter your email" />
+            <input type="submit" value="Subscribe" />
+          </form>
+        </div>
+      </div>
+      <div class="col-12 col-lg-8 offset-lg-2 mt-2">
+        <p class="my-3 font-small text-center">
+          © 2024 Copyright, All Rrights Reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+</html>
