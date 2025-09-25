@@ -1,0 +1,292 @@
+/*-----------ESTILOS PÁGINA INDEX------------*/
+
+/*banner agenda de planes*/
+
+    .agenda-banner {
+    background-color: #1c1d22;
+    margin: 0px auto;
+    padding: 20px 0 20px 0;
+    color: white;
+    text-align: center;
+    }
+
+    .agenda-banner h2 {
+    margin-bottom: 10px;
+    }
+
+    /*foto del header*/
+    .imagen_header {
+    background-image: url("imagenes/inicio/foto_header.png");
+    height: 400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    }
+
+    .imagen_header img {
+    max-width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    overflow: hidden;
+    }
+
+
+    /* sección tipos de planes */
+    .planes {
+    margin: 40px 0px 130px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+    .novedades {
+    position: absolute;
+    left: 0;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    font-weight: 600;
+    color: rgb(189, 189, 189);
+    background-color: rgb(46, 46, 46);
+    border-radius: 15px 0px 15px 0px;
+    width: auto;
+    height: auto;
+    font-style: italic;
+    }
+
+    .like {
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    right: 0%;
+    font-size: 15px;
+    padding: 8px;
+    color: rgb(210, 210, 210);
+    background-color: rgb(48, 48, 48);
+    border-radius: 0px 20px 0px 15px;
+    width: 40px;
+    height: 35px;
+    cursor: pointer;
+    }
+
+    .like > svg {
+    transition: all 0.3s ease;
+    }
+
+    .like:hover > svg {
+    fill: rgb(245, 75, 75);
+    }
+
+    .like:focus {
+    outline: none;
+    }
+
+    .contenedor_imagen {
+    padding: 5px;
+    height: 50%;
+    width: 60%;
+    padding-top: 8px;
+    border-radius: 15Px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    }
+
+    .contenedor_imagen > img {
+    height: 150px;
+    width: 140px;
+    border-radius: 15px;
+    }
+
+    .card_title {
+    color: rgb(32, 32, 32);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: eLlipsis;
+    max-width: 200px;
+    font-weight: 800;
+    padding-top: 25px;
+    }
+
+    .contenedor_button {
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    Margin-bottom: 05px;
+    }
+
+    .carta {
+    border-radius: 20px;
+    background: #f35f9a;
+    margin: 10px;
+    width: 250px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    position: relative;
+    outline: 2px solid rgb(48, 48, 48);
+    user-select: none;
+    border-radius: 20px;
+    border: 3px solid #000000;
+    box-shadow: 12px 12px 0 #000000;
+    font-family: Montserrat, sans-serif;
+    translate: -6pp -6px;
+    ovErflow: hidden;
+    transition: all 0.3s ease;
+    }
+
+    .button {
+    font-family: inherit;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 3px solid #000000;
+    box-shadow: 3px 3px 0 #000000;
+    font-weight: 750;
+    background: #4ade80;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    }
+
+    .button:hover {
+    translate: 1.5px 1.5px;
+    box-shadow: 1.5px 1.5px 0 #000000;
+    background: #1ac2ff;
+    }
+
+    .button:active {
+    translate: 3px 3px;
+    box-shadow: 0 0 0 #000000;
+    }
+
+    .carta:hover {
+    translate: -6px;
+    }
+
+
+    /*banner suscripción newsletter del blog */
+
+    .suscripcion_blog {
+    width: 100%;
+    background-color: #70d7d4;
+    margin-top: 110px;
+    padding: 20px 0;
+    }
+
+    .newsletter-content {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    }
+
+    .newsletter-fullwidth h2,
+    .newsletter-fullwidth p {
+    color: #333;
+    margin: 10px 0;
+    }
+
+    label {
+    display: flex;
+    margin: 5px 0px;
+    }
+
+    input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    }
+
+    .newsletter-fullwidth button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px 0;
+    }
+
+    .newsletter-fullwidth button:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    }
+
+    @media (max-width: 800px) {
+    nav a {
+        display: none;
+    }
+
+    nav button:nth-child(5) {
+        display: none;
+    }
+
+    nav button + button {
+        display: flex;
+    }
+
+    header .container-center {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .newsletter-fullwidth {
+        box-sizing: border-box;
+    }
+
+    .newsletter-content {
+        max-width: 800px;
+        border-radius: 0px;
+        background-color: #f9f9f9;
+        box-shadow: 0 0px 0px;
+        padding: 20px;
+    }
+    }
+
+    /*CTA seguir en Redes Sociales*/
+
+    .parrafo {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+    text-align: justify;
+    }
+
+    .img-container {
+    margin: 5px 0 20px 0;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    }
+
+    .fotoredes {
+    width: 50%;
+    max-width: 300px;
+    border: black 5px solid;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
